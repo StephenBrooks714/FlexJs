@@ -1,0 +1,182 @@
+section.intro {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("https://images.unsplash.com/photo-1473646910415-5bf513680e98?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center fixed;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  .h-90 {
+    height: 90vh;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  .mb-2 {
+    margin-bottom: 1.2rem;
+  }
+  .flex-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .col-lg-10 {
+      width: 80%;
+
+      .intro-title {
+        color: white;
+        font-size: 4rem;
+        text-align: center;
+
+        @media (max-width: 768px) {
+          font-size: 3rem;
+        }
+      }
+      .intro-text {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      a.btn {
+        margin: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 0.25rem;
+        text-decoration :none;
+        padding: 0.5rem 1rem;
+        text-wrap: wrap;
+
+        &.btn-outline-light {
+          color: white;
+          border: 1px solid white;
+
+          &:hover {
+            background-color: white;
+            color: black;
+          }
+
+          &:focus {
+            background-color: white;
+            color: black;
+          }
+        }
+        &.btn-light {
+          background-color: white;
+          color: black;
+          border-color: black;
+
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+.mb-7 {
+  margin-bottom: 7rem;
+}
+.lead {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.display-1 {
+  font-size: 6rem;
+}
+.display-2 {
+  font-size: 5rem;
+}
+.display-3 {
+  font-size: 4rem;
+}
+.display-4 {
+  font-size: 3rem;
+}
+.fw-light {
+  font-weight: 300;
+}
+.mb-8 {
+  margin-bottom: 8rem;
+}
+.mb-7 {
+  margin-bottom: 7rem;
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+.btn {
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  text-decoration :none;
+  padding: 0.5rem 1rem;
+  text-wrap: wrap;
+}
+
+.btn-outline-light {
+  color: black;
+  border: 1px solid black;
+
+  &:hover {
+    transition: ease-in-out 0.3s;
+    background-color: black;
+    color: white;
+  }
+
+  &:focus {
+    background-color: white;
+    color: black;
+  }
+}
+.btn-light {
+  background-color: black;
+  color: white;
+  border-color: black;
+
+  &:hover {
+    transition: ease-in-out 0.3s;
+    background-color: white;
+    color: black;
+  }
+}
+// cards
+a {
+  text-decoration: none;
+  .card {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #dfdfdf;
+    border-radius: 0.25rem;
+    transition: ease-in-out 0.3s;
+
+    .card-img-circle {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #dbdbdb;
+      border: 1px solid #dfdfdf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    &:hover {
+      transition: ease-in-out 0.3s;
+      transform: scale(1.1);
+      text-decoration: none;
+      color: black;
+    }
+    .card-body {
+      padding: 1rem;
+    }
+  }
+}
